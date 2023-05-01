@@ -1,0 +1,450 @@
+{
+  context: 'NestFactory',
+  level: 'info',
+  message: 'Starting Nest application...',
+  timestamp: 'Sep-24-2022 21:45:21'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:21'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ThrottlerModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:22'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'CsrfModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:22'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ConfigHostModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:22'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ServeStaticModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:22'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ConfigModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:22'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'AppModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:22'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmCoreModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ClientModule dependencies initialized',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'AppController {/}:',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/, GET} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'ClientController {/client}:',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/post, POST} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client, GET} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, GET} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, PATCH} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, DELETE} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'CsrfController {/csrf}:',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/csrf, GET} route',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'NestApplication',
+  level: 'info',
+  message: 'Nest application successfully started',
+  timestamp: 'Sep-24-2022 21:45:24'
+}
+{
+  context: 'ExceptionsHandler',
+  stack: [
+    'ForbiddenError: invalid csrf token\n' +
+      '    at csrf (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/csurf/index.js:112:19)\n' +
+      '    at Layer.handle [as handle_request] (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:328:13)\n' +
+      '    at /home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:286:9\n' +
+      '    at Function.process_params (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:346:12)\n' +
+      '    at next (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:280:10)\n' +
+      '    at xPoweredByMiddleware (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/helmet/dist/cjs/index.js:323:3)\n' +
+      '    at Layer.handle [as handle_request] (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:328:13)\n' +
+      '    at /home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:286:9'
+  ],
+  level: 'error',
+  message: 'invalid csrf token',
+  timestamp: 'Sep-24-2022 21:45:40'
+}
+{
+  context: 'ExceptionsHandler',
+  stack: [
+    'ForbiddenError: invalid csrf token\n' +
+      '    at csrf (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/csurf/index.js:112:19)\n' +
+      '    at Layer.handle [as handle_request] (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:328:13)\n' +
+      '    at /home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:286:9\n' +
+      '    at Function.process_params (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:346:12)\n' +
+      '    at next (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:280:10)\n' +
+      '    at xPoweredByMiddleware (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/helmet/dist/cjs/index.js:323:3)\n' +
+      '    at Layer.handle [as handle_request] (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/layer.js:95:5)\n' +
+      '    at trim_prefix (/home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:328:13)\n' +
+      '    at /home/kithinji/Documents/app/chuisoft/back-end/node_modules/express/lib/router/index.js:286:9'
+  ],
+  level: 'error',
+  message: 'invalid csrf token',
+  timestamp: 'Sep-24-2022 21:47:07'
+}
+{
+  context: 'NestFactory',
+  level: 'info',
+  message: 'Starting Nest application...',
+  timestamp: 'Sep-24-2022 22:09:50'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ThrottlerModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'CsrfModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ConfigHostModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ServeStaticModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ConfigModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'AppModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:51'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmCoreModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ClientModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'AppController {/}:',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/, GET} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'ClientController {/client}:',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/post, POST} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client, GET} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, GET} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, PATCH} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, DELETE} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'CsrfController {/csrf}:',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/csrf, GET} route',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'NestApplication',
+  level: 'info',
+  message: 'Nest application successfully started',
+  timestamp: 'Sep-24-2022 22:09:52'
+}
+{
+  context: 'NestFactory',
+  level: 'info',
+  message: 'Starting Nest application...',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ThrottlerModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'CsrfModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ConfigHostModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ServeStaticModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ConfigModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'AppModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:31'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmCoreModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'TypeOrmModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'InstanceLoader',
+  level: 'info',
+  message: 'ClientModule dependencies initialized',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'AppController {/}:',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/, GET} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'ClientController {/client}:',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/post, POST} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client, GET} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, GET} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, PATCH} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/client/:id, DELETE} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RoutesResolver',
+  level: 'info',
+  message: 'CsrfController {/csrf}:',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'RouterExplorer',
+  level: 'info',
+  message: 'Mapped {/csrf, GET} route',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'NestApplication',
+  level: 'info',
+  message: 'Nest application successfully started',
+  timestamp: 'Sep-24-2022 22:11:32'
+}
+{
+  context: 'AppController',
+  clientIP: '::ffff:127.0.0.1',
+  host: 'localhost:8080',
+  level: 'info',
+  message: 'server.endpoint.home.get.homepage',
+  timestamp: 'Sep-24-2022 22:11:52'
+}
+{
+  context: 'ClientController',
+  clientIP: '::ffff:127.0.0.1',
+  host: 'localhost:8080',
+  level: 'info',
+  message: 'server.endpoint.client.post.insert.job',
+  timestamp: 'Sep-24-2022 22:12:52'
+}
